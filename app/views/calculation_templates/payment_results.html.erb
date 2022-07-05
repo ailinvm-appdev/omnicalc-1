@@ -1,0 +1,19 @@
+<h1>Payment Results</h1>
+<d1>
+<dt>APR</dt>
+<!-- <dd><%= @apr.round(4).to_s(:percentage)%> </dd>
+format(@apr,'.4f') -->
+<dd><%= '%.4f' % @apr + "%"%> </dd>
+<dt>Principal</dt>
+<dd><%= @pv %> </dd>
+
+<dt>Number of years</dt>
+<dd><%= @years_left %> </dd>
+
+<dt>Payment</dt>
+<dd><%= @payment %> </dd>
+
+
+
+
+</d1>
